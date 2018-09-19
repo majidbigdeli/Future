@@ -7,12 +7,15 @@ namespace Future.EntityFrameworkCore
     {
         public static void Configure(DbContextOptionsBuilder<FutureDbContext> builder, string connectionString)
         {
-            builder.UseSqlServer(connectionString);
+            //builder.UseSqlServer(connectionString);
+            builder.UseNpgsql(connectionString);
         }
 
         public static void Configure(DbContextOptionsBuilder<FutureDbContext> builder, DbConnection connection)
         {
-            builder.UseSqlServer(connection);
+            // builder.UseSqlServer(connection);
+             builder.UseNpgsql(connection);
+
         }
     }
 }
