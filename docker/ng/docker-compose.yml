@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+
+    majid_host:
+        image: majid/host
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Staging
+        ports:
+            - "9901:80"
+        volumes:
+            - "./Host-Logs:/app/App_Data/Logs"
+
+    majid_ng:
+        image: majid/ng
+        ports:
+            - "9902:80"
