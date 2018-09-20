@@ -20,8 +20,8 @@
     <ProjectReference Include="..\Future.EntityFrameworkCore\Future.EntityFrameworkCore.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Majid.AspNetCore" Version="1.0.0" />
-    <PackageReference Include="Majid.ZeroCore" Version="1.0.0" />
+    <PackageReference Include="Majid.AspNetCore" Version="1.0.1" />
+    <PackageReference Include="Majid.ZeroCore" Version="1.0.1" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.1.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />

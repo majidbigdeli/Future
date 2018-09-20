@@ -10,7 +10,7 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Majid.Castle.Log4Net" Version="1.0.0" />
+    <PackageReference Include="Majid.Castle.Log4Net" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json;log4net.config">
