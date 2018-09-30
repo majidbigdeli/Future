@@ -28,7 +28,7 @@
     <ProjectReference Include="..\Future.Web.Core\Future.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Majid.Castle.Log4Net" Version="1.0.1" />
+    <PackageReference Include="Majid.Castle.Log4Net" Version="1.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
